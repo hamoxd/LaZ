@@ -53,7 +53,7 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『HaMoBoT』 『اسم البوت』", true)
+      .addField("『LAZ』 『اسم البوت』", true)
       
       .addField("『@! Z |ĦÂмØ♚#6947』『مصمم البوت』", true)
       
