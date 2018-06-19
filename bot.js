@@ -11,6 +11,25 @@ client.on('message', message => {
       }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === 'السلام عليكم') {
+    msg.reply('ۆعـلُـيَـگـم آلُـسـلُآم ۆرحٍـمةّ آلُلُہ ۆبْرگآتٌہ ، منْۆر. :rose: ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'برب') {
+    msg.reply('ــيَــتٌ يَ حٍــلُــۆ،  لُآ تٌــطًــۆلُ :disappointed:');
+  }
+});
+
 var prefix = "**";
 client.on("message", message => {
 
