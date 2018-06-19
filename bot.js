@@ -943,7 +943,7 @@ client.on('message', message=>{
   
   
   client.on('message', message => {
- if (message.content.startsWith("لكم")) {
+ if (message.content.startsWith("ولكم")) {
                                  var mentionned = message.mentions.users.first();
              var mentionavatar;
                if(mentionned){
